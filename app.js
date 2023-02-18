@@ -1,7 +1,9 @@
+import KEY from './key.js';
+
 const options = {
     method: 'GET',
     headers: {
-      'X-RapidAPI-Key': '1d42681a24msh914598ea0c3b93dp1a3cccjsn6754b821090c',
+      'X-RapidAPI-Key': KEY,
       'X-RapidAPI-Host': 'ip-reputation-geoip-and-detect-vpn.p.rapidapi.com'
     }
   };
